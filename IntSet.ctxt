@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=IntSet
+comment0.text=\r\n\ The\ interface\ for\ all\ IntSets\r\n\ Implemented\ by\ the\ EmptySet,\ Singleton\ and\ TreeSet\ classes.\r\n\r\n\ @author\ Lucas\ Phillips\r\n\ @version\ 15/10/2020\r\n
+comment1.params=x
+comment1.target=IntSet\ add(int)
+comment2.params=x
+comment2.target=boolean\ contains(int)
+comment3.params=other
+comment3.target=IntSet\ union(IntSet)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

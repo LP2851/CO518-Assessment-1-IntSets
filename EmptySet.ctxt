@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=EmptySet
+comment0.text=\r\n\ EmptySet\ is\ a\ class\ which\ stores\ a\ nothing\ variable\ representing\ an\ empty\ set.\r\n\r\n\ @author\ Lucas\ Phillips\r\n\ @version\ 15/10/2020\r\n
+comment1.params=
+comment1.target=EmptySet()
+comment1.text=\r\n\ Hidden\ constructor\ for\ use\ only\ with\ the\ static\ empty()\ method.\r\n
+comment2.params=
+comment2.target=IntSet\ empty()
+comment2.text=\r\n\ Returns\ the\ static\ instance\ of\ EmptySet.\r\n\ @return\ The\ static\ instance\ of\ EmptySet.\r\n
+comment3.params=x
+comment3.target=IntSet\ add(int)
+comment3.text=\r\n\ Adds\ the\ passed\ integer\ x\ to\ the\ IntSet\ making\ the\ set\ a\ Singleton.\r\n\ @param\ x\ The\ integer\ to\ be\ added\ to\ the\ IntSet.\r\n\ @return\ The\ singleton\ set\ containing\ the\ passed\ value\ x.\r\n
+comment4.params=x
+comment4.target=boolean\ contains(int)
+comment4.text=\r\n\ Checks\ to\ see\ if\ the\ integer\ passed\ is\ in\ the\ set.\ Always\ returns\ false.\r\n\ @param\ x\ The\ integer\ that\ is\ being\ checked\ if\ it\ exists\ in\ the\ set.\r\n\ @return\ False.\r\n
+comment5.params=other
+comment5.target=IntSet\ union(IntSet)
+comment5.text=\r\n\ Returns\ the\ union\ of\ this\ set\ and\ the\ passed\ set,\ which\ is\ just\ the\ contents\ of\ the\ passed\ set.\r\n\ @param\ other\ The\ set\ to\ be\ unioned\ to\ the\ EmptySet.\r\n\ @return\ The\ IntSet\ (other)\ passed.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Returns\ the\ string\ version\ of\ the\ set\ which\ is\ "{}"\r\n\ @returns\ The\ string\ "{}"\r\n
+numComments=7
